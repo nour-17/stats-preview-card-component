@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-size: 15px;
+    height: 80vh;
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    margin-bottom: 35px;
+    margin-left:35px ;
+    font-size: 2.2rem;
+    color:hsl(0, 0%, 95%);
+}
+p{
+    font-size: 1.08rem;
+    margin-bottom: 35px;
+    margin-left:35px ;
+    line-height: 1.8rem;
+    color:hsla(0, 0%, 100%, 0.75);
+    max-width: 70%;
+}
+button{
+    margin-top: 35px;
+    margin-left:35px ;
+    padding: 11px 22px;
+    border-radius: 40px ;
+    border-style: none;
+    background-color:hsl(0, 0%, 95%);
+}
+button:hover{
+    box-shadow: 0px 0px 10px 2px rgb(197, 189, 189) ;
+    color: rgb(56, 49, 49);
+}
+img{
+    margin: 40px auto 35px 35px;
+}
+.container{
+    height: 80vh;
+    display:flex;
+}
+.first{
+    background-color:hsl(31, 77%, 52%);
+}
+.second{
+    background-color:hsl(184, 100%, 22%);
+}
+.third{
+    background-color: hsl(179, 100%, 13%);
+}
+.luxury-p{
+    margin-bottom: 40px;
+}
+.first-btn{color:hsl(31, 77%, 52%);}
+.second-btn{color:hsl(184, 100%, 22%);}
+.third-btn{color:hsl(179, 100%, 13%);}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
